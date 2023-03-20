@@ -4,7 +4,8 @@ body{
 }
 
 header{
-     background-color: blue;   
+     background-color: blue;
+     color: white;   
 }
 
 #main-nav{
@@ -35,6 +36,12 @@ header{
     background-color: blue;
     min-height: 490px;
     margin-block-start: 0;
+    color: white;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 18px;
+
 }
 
 .container2{
@@ -50,9 +57,11 @@ header{
 }
 
 #title{
-    padding-top: 50px;
+    padding-top: 80px;
     display: block;
     margin-block-start: 0px;
+    font-size: 40px;
+
 }
 
 footer{
@@ -60,3 +69,28 @@ footer{
     background-color: black;
 }
 
+.col{
+    float: center;
+}
+
+button{
+    padding: 5px;
+    height: 50px;
+    color: white;
+    border-radius: 35px;
+    font-size: 15px;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+
+#mac{
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#apri{
+    background-color: black;
+    width: 230px;
+}
