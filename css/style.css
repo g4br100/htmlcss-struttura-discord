@@ -8,12 +8,55 @@ header{
 }
 
 #main-nav{
-    height: 74px;
+    min-height: 74px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
+#logo{
+    display: flex;
+}
 
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 500px;
+}
+
+.main{
+    display: flex;
+    background-color: white;
+    margin-block-start: 0;
+}
+.container1{
+    background-color: blue;
+    min-height: 490px;
+    margin-block-start: 0;
+}
+
+.container2{
+    min-height: 662px;
+}
+
+.container3{
+    min-height: 840px;
+}
+
+.container4{
+    min-height: 1423px;
+}
+
+#title{
+    padding-top: 50px;
+    display: block;
+    margin-block-start: 0px;
+}
+
+footer{
+    height: 640px;
+    background-color: black;
+}
 
