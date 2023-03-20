@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+}
+
+header{
+     background-color: blue;   
+}
+
+#main-nav{
+    height: 74px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
