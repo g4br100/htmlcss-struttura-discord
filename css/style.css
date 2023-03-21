@@ -80,6 +80,7 @@ header{
 footer{
     height: 640px;
     background-color: black;
+    color: white;
 }
 
 .col1{
@@ -94,7 +95,7 @@ button{
     font-size: 17px;
     border-color: rgba(240, 248, 255, 0);
     font-weight: 300;
-    
+
 }
 
 
@@ -104,6 +105,12 @@ button{
     width: 200px;
     margin-right: 20px;
 }
+
+#mac2{
+    background-color: blueviolet;
+    width: 200px;
+}
+
 
 #apri{
     background-color: black;
@@ -136,3 +143,11 @@ p{
     float: left;
 }
 
+.colf{
+    float: right;
+    
+}
+
+ul{
+    list-style-type:none;
+}
