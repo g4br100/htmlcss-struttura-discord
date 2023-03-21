@@ -1,11 +1,13 @@
 
 body{
     margin: 0;
+    font-family:Helvetica, sans-serif;
 }
 
 header{
      background-color: blue;
-     color: white;   
+     color: white;
+     font-size: 15px;   
 }
 
 #main-nav{
@@ -34,7 +36,7 @@ header{
 }
 .container1{
     background-color: blue;
-    min-height: 490px;
+    min-height: 500px;
     margin-block-start: 0;
     color: white;
     text-align: center;
@@ -78,8 +80,10 @@ button{
     height: 50px;
     color: white;
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 17px;
     border-color: rgba(240, 248, 255, 0);
+    font-weight: 300;
+    
 }
 
 
@@ -92,5 +96,22 @@ button{
 
 #apri{
     background-color: black;
-    width: 230px;
+    width: 250px;
+}
+
+#login{
+    float: left;
+    display: flex;
+    height: 35px;
+    padding: 13px;
+    background-color: white;
+    color: blue;
+    line-height: 0;
+    font-size: 15px;
+    width: 75px;  
+}
+
+p{
+    line-height: 30px;
+    font-weight: 400;
 }
