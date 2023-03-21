@@ -48,22 +48,33 @@ header{
 
 .container2{
     min-height: 662px;
+    padding-right: 15%;
 }
 
 .container3{
     min-height: 840px;
+    padding-left: 15%;
 }
 
 .container4{
-    min-height: 1423px;
+    min-height: 710px;
+    padding-right: 15%;
 }
 
-#title{
+.container5{
+    min-height: 1423px;
+    text-align: center;
+}
+
+.title1, .title2{
     padding-top: 80px;
     display: block;
     margin-block-start: 0px;
     font-size: 40px;
+}
 
+.title2{
+    line-height: 57px;
 }
 
 footer{
@@ -71,7 +82,7 @@ footer{
     background-color: black;
 }
 
-.col{
+.col1{
     float: center;
 }
 
@@ -112,6 +123,16 @@ button{
 }
 
 p{
-    line-height: 30px;
+    line-height: 28px;
     font-weight: 400;
 }
+
+.col2{
+    float: right;
+}
+
+
+.col3{
+    float: left;
+}
+
